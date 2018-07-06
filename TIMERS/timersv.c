@@ -23,11 +23,10 @@
 	@brief Implementacja timerów interwałowych.
 */
 #include "../main.h"
+
 #include "../STRINGS/strings.h"
 #include "../TIMERS/timersv.h"
-
 #include "../OUTPUTS/outputs.h"
-
 #include "../USART/usart.h"
 
 

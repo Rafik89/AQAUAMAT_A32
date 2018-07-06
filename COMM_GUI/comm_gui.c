@@ -22,10 +22,9 @@
 /** @file comm_gui.c
 @brief Implementacja komunikacji z interfejsem graficznym.
 */
+#include <avr/wdt.h>
 
 #include "../main.h"
-
-#include <avr/wdt.h>
 
 #include "comm_gui.h"
 

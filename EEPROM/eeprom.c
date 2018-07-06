@@ -23,12 +23,13 @@
 	@brief Obsługa pamięci EEPROM.
 */
 #include "../main.h"
+#include "eeprom.h"
 #include "../TEMP/temp.h"
 #include "../TIMERS/timers.h"
 #include "../TIMERS/timersv.h"
 #include "../TOP_OFF/top_off.h"
 #include "../LCD/hd44780.h"
-#include "eeprom.h"
+
 #include "../OUTPUTS/outputs.h"
 
 

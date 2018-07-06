@@ -23,10 +23,10 @@
 	@brief Implementacja timerów.
 */
 #include "../main.h"
+
 #include "timers.h"
 
 #include "../OUTPUTS/outputs.h"
-
 #include "../STRINGS/strings.h"
 #include "../USART/usart.h"
 
@@ -135,7 +135,7 @@ void timers_process(void) {
 	@param to czas końcowy w formacie \ref MIT "MIT"
     @return  \ref TRUE - timer powinien być włączony, \ref FALSE - timer powinien być wyłączony
 */
-uint8_t just_in_time(struct MIT *from,struct MIT *to) {	
+uint8_t just_in_time(struct MIT *from, struct MIT *to) {
 	
 	uint16_t mincur=hours * TIMERS_HOUR_MINUTES + minutes;
     uint16_t minfrom=from->hours * TIMERS_HOUR_MINUTES + from->minutes;

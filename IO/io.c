@@ -23,8 +23,9 @@
 	@brief Obsługa układów wejścia/wyjścia.
 */
 #include "../main.h"
-#include "../TWI/twi.h"
 #include "io.h"
+#include "../TWI/twi.h"
+
 
 
 uint8_t get_io (uint8_t addr) {

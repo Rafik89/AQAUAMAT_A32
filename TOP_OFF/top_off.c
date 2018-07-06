@@ -25,7 +25,6 @@
 #include "../LOG/log.h"
 #include "../LCD/hd44780.h"
 #include "../OUTPUTS/outputs.h"
-
 #include "../STRINGS/strings.h"
 #include "../UI/ui.h"
 

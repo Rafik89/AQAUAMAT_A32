@@ -19,8 +19,11 @@
 	$Id$
 */
 #include <avr/wdt.h>
+
 #include "../main.h"
+
 #include "log.h"
+
 #include "../TWI/twi.h"
 #include "../TWI/twi_addresses.h"
 

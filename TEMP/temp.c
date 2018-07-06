@@ -19,8 +19,10 @@
 	$Id$
 */
 #include "../main.h"
-#include "../ONEWIRE/one_wire.h"
+
 #include "temp.h"
+
+#include "../ONEWIRE/one_wire.h"
 #include "../TIMERS/timersv.h"
 #include "../ALARMS/alarms.h"
 #include "../LOG/log.h"
@@ -366,4 +368,3 @@ Jako czujnik temperatury wykorzystany jest DS18B20. Trzykońcówkowy czujnik pod
  - kalibracja czujników
  - nazewnictwo czujników zamiana miejscami
 */
-
