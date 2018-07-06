@@ -22,13 +22,13 @@
 /** @file timersv.c
 	@brief Implementacja timerów interwałowych.
 */
-#include "main.h"
-#include "strings.h"
-#include "timersv.h"
+#include "../main.h"
+#include "../STRINGS/strings.h"
+#include "../TIMERS/timersv.h"
 
+#include "../OUTPUTS/outputs.h"
 
-#include "outputs.h"
-#include "USART/usart.h"
+#include "../USART/usart.h"
 
 
 

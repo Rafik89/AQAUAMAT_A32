@@ -29,7 +29,7 @@
 #include <avr/wdt.h>
 
 
-#include "../strings.h"
+#include "../STRINGS/strings.h"
 #include "hd44780.h"
 
 

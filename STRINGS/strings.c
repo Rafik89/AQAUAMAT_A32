@@ -23,7 +23,7 @@ F    Aquamat - Sterownik akwariowy Open Source
 	@brief Definicje stringów używanych w programie.
 */
 
-#include "main.h"
+#include "../main.h"
 
 PROGMEM const char RTC_MON_STR[] ="Po";
 PROGMEM const char RTC_TUE_STR[] ="Wt";

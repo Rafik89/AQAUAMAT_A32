@@ -18,12 +18,12 @@
 
 	$Id$
 */
-#include "main.h"
-#include "commonDefs.h"
+#include "../main.h"
+#include "../COMMANDS/commonDefs.h"
 #include "qbuttons.h"
 
 
-#include "outputs.h"
+#include "../OUTPUTS/outputs.h"
 
 /** @file qbuttons.c
 		@brief Implementacja klawiszy szybkiego dostępu.

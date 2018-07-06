@@ -24,10 +24,10 @@
 */
 #include "../main.h"
 #include "../USART/usart.h"
-#include "../strings.h"
-#include "../outputs.h"
-#include "../log.h"
-#include "../temp.h"
+#include "../STRINGS/strings.h"
+#include "../LOG/log.h"
+#include "../OUTPUTS/outputs.h"
+#include "../TEMP/temp.h"
 
 void usart_init(unsigned int ubrr) {
 	UBRRH = (unsigned char)(ubrr>>8);

@@ -18,16 +18,18 @@
 
 	$Id$
 */
-#include "main.h"
+#include "../main.h"
+
 #include "outputs.h"
-#include "io.h"
-#include "TWI/twi_addresses.h"
-#include "USART/usart.h"
-#include "strings.h"
-#include "EEPROM/eeprom.h"
-#include "temp.h"
-#include "log.h"
-#include "LCD/hd44780.h"
+
+#include "../IO/io.h"
+#include "../TWI/twi_addresses.h"
+#include "../USART/usart.h"
+#include "../STRINGS/strings.h"
+#include "../EEPROM/eeprom.h"
+#include "../TEMP/temp.h"
+#include "../LCD/hd44780.h"
+#include "../LOG/log.h"
 
 
 /** @var struct OUTPUT outputs[]
