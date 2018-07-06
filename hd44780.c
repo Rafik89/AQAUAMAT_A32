@@ -16,7 +16,7 @@
  * $Id: hd44780.c 46 2009-03-19 21:19:39Z musashi@todryk.pl $
  */
 
-/** @file hd44780.c
+/** @file hd44780.c 
 	@brief Obsługa wyświetlacza LCD.
 */
 
