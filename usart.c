@@ -34,7 +34,7 @@ void usart_init(unsigned int ubrr) {
 	UBRRH = (unsigned char)(ubrr>>8);
 	UBRRL = (unsigned char)ubrr;
 	UCSRB = _BV(RXEN)|_BV(TXEN)|_BV(RXCIE);
-	////UCSRB = _BV(RXEN)|_BV(TXEN);
+	//UCSRB = _BV(RXEN)|_BV(TXEN);
 	UCSRC = _BV(URSEL)|_BV(UCSZ1)|_BV(UCSZ0);
 }
 
