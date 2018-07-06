@@ -18,8 +18,7 @@
 
 	$Id$
 */
-
-#include "aquamat.h"
+#include "main.h"
 #include "outputs.h"
 #include "io.h"
 #include "TWI/twi_addresses.h"
@@ -29,6 +28,7 @@
 #include "temp.h"
 #include "log.h"
 #include "LCD/hd44780.h"
+
 
 /** @var struct OUTPUT outputs[]
 	Tablica przechowująca stan wyjść.

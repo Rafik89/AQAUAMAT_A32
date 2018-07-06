@@ -22,12 +22,13 @@
 /** @file menu.c
 	@brief Funkcje obsługi menu.
 */
-
+#include "main.h"
 #include <avr/pgmspace.h>
 #include "LCD/hd44780.h"
 #include "commonDefs.h"
-#include "aquamat.h"
 #include "menu.h"
+
+
 #include "temp.h"
 
 struct MENU_STATE ms;

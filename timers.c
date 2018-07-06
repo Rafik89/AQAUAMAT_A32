@@ -22,9 +22,10 @@
 /** @file timers.c
 	@brief Implementacja timerów.
 */
-
-#include "aquamat.h"
+#include "main.h"
 #include "timers.h"
+
+
 #include "outputs.h"
 #include "strings.h"
 #include "USART/usart.h"

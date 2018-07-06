@@ -18,10 +18,11 @@
 
 	$Id$
 */
-
-#include "aquamat.h"
+#include "main.h"
 #include "commonDefs.h"
 #include "qbuttons.h"
+
+
 #include "outputs.h"
 
 /** @file qbuttons.c

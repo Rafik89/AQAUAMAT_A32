@@ -18,15 +18,15 @@
 	
 	$Id$
 */
-
+#include "main.h"
 #include <avr/wdt.h>
-#include "aquamat.h"
 #include "TWI/twi.h"
 #include "TWI/twi_addresses.h"
 #include "log.h"
 #include "strings.h"
 #include "USART/usart.h"
 #include "LCD/hd44780.h"
+
 
 extern uint8_t minutes;
 extern uint8_t hours;

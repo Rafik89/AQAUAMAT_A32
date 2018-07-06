@@ -23,9 +23,9 @@
 	@brief Obsługa interfejsu 1-wire.
 */
 
-#include "../aquamat.h"
 #include <util/delay.h>
 #include "one_wire.h"
+#include "../main.h"
 
 uint8_t last_discrepency;
 uint8_t last_device_flag;

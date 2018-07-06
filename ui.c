@@ -25,8 +25,7 @@
 @todo
 - w czasie wyświetlania ustawień wyjścia i zmianie nazwy wyjścia z poziomu GUI zmienia się nazwa wyjścia
 */
-
-#include "aquamat.h"
+#include "main.h"
 #include <avr/pgmspace.h>
 #include "ui.h"
 #include "LCD/hd44780.h"
@@ -37,6 +36,7 @@
 #include "alarms.h"
 #include "top_off.h"
 #include "EEPROM/eeprom.h"
+
 #include "menu.h"
 #include "timers.h"
 #include "timersv.h"

@@ -22,8 +22,7 @@
 /** @file usart.c
 	@brief Obsługa interfejsu szeregowego.
 */
-
-#include "../aquamat.h"
+#include "../main.h"
 #include "../USART/usart.h"
 #include "../strings.h"
 #include "../outputs.h"

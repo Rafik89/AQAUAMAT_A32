@@ -19,6 +19,7 @@
 /** @file hd44780.c 
 	@brief Obsługa wyświetlacza LCD.
 */
+#include "../main.h"
 #include <stdbool.h>
 #include <stdint.h>
 #include <avr/pgmspace.h>
@@ -27,10 +28,10 @@
 #include <util/delay.h>
 #include <avr/wdt.h>
 
-#include "../aquamat.h"
-#include "../strings.h"
 
+#include "../strings.h"
 #include "hd44780.h"
+
 
 
 /*

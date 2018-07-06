@@ -22,8 +22,7 @@
 /** @file eeprom.c
 	@brief Obsługa pamięci EEPROM.
 */
-
-#include "../aquamat.h"
+#include "../main.h"
 #include "../temp.h"
 #include "../outputs.h"
 #include "../timers.h"
@@ -31,6 +30,7 @@
 #include "../top_off.h"
 #include "../LCD/hd44780.h"
 #include "eeprom.h"
+
 
 char output_name[EEPROM_OUTS_NAME_LENGTH+1];
 
