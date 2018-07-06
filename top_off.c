@@ -25,7 +25,7 @@
 #include "outputs.h"
 #include "alarms.h"
 #include "log.h"
-#include "hd44780.h"
+#include "LCD/hd44780.h"
 #include "strings.h"
 #include "ui.h"
 

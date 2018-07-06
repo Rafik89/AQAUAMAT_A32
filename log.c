@@ -26,7 +26,7 @@
 #include "log.h"
 #include "strings.h"
 #include "usart.h"
-#include "hd44780.h"
+#include "LCD/hd44780.h"
 
 extern uint8_t minutes;
 extern uint8_t hours;

@@ -28,7 +28,7 @@
 #include "eeprom.h"
 #include "temp.h"
 #include "log.h"
-#include "hd44780.h"
+#include "LCD/hd44780.h"
 
 /** @var struct OUTPUT outputs[]
 	Tablica przechowująca stan wyjść.
