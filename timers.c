@@ -27,7 +27,7 @@
 #include "timers.h"
 #include "outputs.h"
 #include "strings.h"
-#include "usart.h"
+#include "USART/usart.h"
 
 extern uint8_t minutes;
 extern uint8_t hours;

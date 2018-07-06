@@ -23,7 +23,7 @@
 	@brief Obsługa interfejsu 1-wire.
 */
 
-#include "aquamat.h"
+#include "../aquamat.h"
 #include <util/delay.h>
 #include "one_wire.h"
 

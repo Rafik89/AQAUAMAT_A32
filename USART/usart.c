@@ -23,12 +23,12 @@
 	@brief Obsługa interfejsu szeregowego.
 */
 
-#include "aquamat.h"
-#include "usart.h"
-#include "strings.h"
-#include "outputs.h"
-#include "log.h"
-#include "temp.h"
+#include "../aquamat.h"
+#include "../USART/usart.h"
+#include "../strings.h"
+#include "../outputs.h"
+#include "../log.h"
+#include "../temp.h"
 
 void usart_init(unsigned int ubrr) {
 	UBRRH = (unsigned char)(ubrr>>8);

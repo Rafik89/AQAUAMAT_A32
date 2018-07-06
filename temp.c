@@ -20,14 +20,14 @@
 */
 
 #include "aquamat.h"
-#include "one_wire.h"
+#include "ONEWIRE/one_wire.h"
 #include "temp.h"
 #include "outputs.h"
 #include "timers.h"
 #include "alarms.h"
 #include "log.h"
 #include "strings.h"
-#include "usart.h"
+#include "USART/usart.h"
 #include "LCD/hd44780.h"
 
 PROGMEM const uint8_t TEMP_CONVERT_DEC_TO_DS[] = {

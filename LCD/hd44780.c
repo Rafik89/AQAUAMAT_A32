@@ -19,9 +19,6 @@
 /** @file hd44780.c 
 	@brief Obsługa wyświetlacza LCD.
 */
-
-#include "aquamat.h"
-
 #include <stdbool.h>
 #include <stdint.h>
 #include <avr/pgmspace.h>
@@ -30,8 +27,11 @@
 #include <util/delay.h>
 #include <avr/wdt.h>
 
-#include "LCD/hd44780.h"
-#include "strings.h"
+#include "../aquamat.h"
+#include "../strings.h"
+
+#include "hd44780.h"
+
 
 /*
  * Send one pulse to the E signal (enable).  Mind the timing

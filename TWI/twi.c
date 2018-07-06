@@ -23,9 +23,9 @@
 	@brief Obsługa interfejsu TWI.
 */
 
-#include "aquamat.h"
+#include "../aquamat.h"
 #include <util/twi.h>
-#include "twi.h"
+#include "../TWI/twi.h"
 
 uint8_t twi_byte;
 
