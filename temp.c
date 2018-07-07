@@ -18,7 +18,8 @@
 	
 	$Id$
 */
-#include "main.h"
+
+#include "aquamat.h"
 #include "ONEWIRE/one_wire.h"
 #include "temp.h"
 #include "outputs.h"
@@ -28,7 +29,6 @@
 #include "strings.h"
 #include "USART/usart.h"
 #include "LCD/hd44780.h"
-
 
 PROGMEM const uint8_t TEMP_CONVERT_DEC_TO_DS[] = {
 	0,	//0
@@ -351,7 +351,7 @@ CURRENT_TEMP < MAX_TEMP                                     ---->               
 Wrtość temperatury przechowywana jest w zmiennych 16-bitowych. Format przechowywania temperatury jest następujący:
 @verbatim
 FEDCBA98|76543210  - numer bitu
-    XXXX XXXX      - dziesiątki i jedności wartości temperatury w postaci dziesiętnej
+    XXXX XXXX      - dziesiątki i jedności wartości temperatury w postaci dziesiętnej 
              YYYY  - dziesiętna część wartości temperatury
      1     4   2   - temp 20.1 st. C 
 @endverbatim

@@ -22,10 +22,10 @@
 /** @file io.c
 	@brief Obsługa układów wejścia/wyjścia.
 */
-#include "main.h"
+
+#include "aquamat.h"
 #include "TWI/twi.h"
 #include "io.h"
-
 
 uint8_t get_io (uint8_t addr) {
 	twi_send_start();

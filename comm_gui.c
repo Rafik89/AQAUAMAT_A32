@@ -23,8 +23,8 @@
 @brief Implementacja komunikacji z interfejsem graficznym.
 */
 
-#include "main.h"
 #include <avr/wdt.h>
+#include "aquamat.h"
 #include "USART/usart.h"
 #include "comm_gui.h"
 #include "commandsDefs.h"
@@ -38,7 +38,6 @@
 #include "timers.h"
 #include "timersv.h"
 #include "log.h"
-
 
 extern uint8_t minutes;
 extern uint8_t hours;

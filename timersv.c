@@ -22,11 +22,10 @@
 /** @file timersv.c
 	@brief Implementacja timerów interwałowych.
 */
-#include "main.h"
+
+#include "aquamat.h"
 #include "strings.h"
 #include "timersv.h"
-
-
 #include "outputs.h"
 #include "USART/usart.h"
 
@@ -67,7 +66,7 @@ uint8_t timerv_status (uint8_t t) {
 }
 
 /** Sprawdza poprawność ustawień interwałów.
-	@param interval wartość interwału
+	@param interval wartość interwału 
     @return \ref TRUE - wartość prawidłowa, \ref FALSE - wartość nieprawidłowa
 */
 uint8_t timersv_is_valid_interval(uint8_t interval) {

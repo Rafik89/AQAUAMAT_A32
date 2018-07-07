@@ -18,14 +18,14 @@
 
 	$Id$
 */
-#include "main.h"
+
+#include "aquamat.h"
 #include "commonDefs.h"
 #include "top_off.h"
 #include "outputs.h"
 #include "alarms.h"
 #include "log.h"
 #include "LCD/hd44780.h"
-
 #include "strings.h"
 #include "ui.h"
 

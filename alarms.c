@@ -24,7 +24,8 @@
 
 	Czy dany alarm jest aktywny określa wartość flagi w zmiennej \ref alarms_flags. Jeżeli zmienna \ref alarms_disable_notification_counter jest większa od \ref ALARM_DISABLE_NOTIFICATION_COUNTER_VALUE powiadomienie o alarmach jest odblokowane. Ta funkcjonalność umożliwia tymczasową blokadę powiadomień, np. wyłączając mruganie wyświetlacza, bądź wyłaczenie sygnalizacji dźwiękowej.
 */
-#include "main.h"
+
+#include "aquamat.h"
 #include "alarms.h"
 #include "commonDefs.h"
 #include "temp.h"
@@ -32,7 +33,6 @@
 #include "strings.h"
 #include "log.h"
 #include "LCD/hd44780.h"
-
 
 /** @var uint8_t alarms_flags
 	Zmienna przechowująca flagi alarmów.

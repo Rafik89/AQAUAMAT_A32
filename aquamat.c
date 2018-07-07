@@ -23,8 +23,7 @@
 	@brief Główna pętla programowa
 */
 
-#include "main.h"
-
+#include "aquamat.h"
 #include <avr/interrupt.h>
 #include <avr/wdt.h>
 #include <stdint.h>
