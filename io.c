@@ -22,8 +22,8 @@
 /** @file io.c
 	@brief Obsługa układów wejścia/wyjścia.
 */
-#include "../main.h"
-#include "../TWI/twi.h"
+#include "main.h"
+#include "TWI/twi.h"
 #include "io.h"
 
 

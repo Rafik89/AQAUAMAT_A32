@@ -18,16 +18,16 @@
 
 	$Id$
 */
-#include "../main.h"
-#include "../COMMANDS/commonDefs.h"
-#include "../TOP_OFF/top_off.h"
-#include "../ALARMS/alarms.h"
-#include "../LOG/log.h"
-#include "../LCD/hd44780.h"
-#include "../OUTPUTS/outputs.h"
+#include "main.h"
+#include "commonDefs.h"
+#include "top_off.h"
+#include "outputs.h"
+#include "alarms.h"
+#include "log.h"
+#include "LCD/hd44780.h"
 
-#include "../STRINGS/strings.h"
-#include "../UI/ui.h"
+#include "strings.h"
+#include "ui.h"
 
 /** @var struct TOP_OFF top_off
 	Przechowuje struktur automatycznej dolewki.

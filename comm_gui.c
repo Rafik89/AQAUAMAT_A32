@@ -23,24 +23,21 @@
 @brief Implementacja komunikacji z interfejsem graficznym.
 */
 
-#include "../main.h"
-
+#include "main.h"
 #include <avr/wdt.h>
-
+#include "USART/usart.h"
 #include "comm_gui.h"
-
-#include "../USART/usart.h"
-#include "../OUTPUTS/outputs.h"
-#include "../COMMANDS/commandsDefs.h"
-#include "../RTC/rtc.h"
-#include "../LCD/hd44780.h"
-#include "../EEPROM/eeprom.h"
-#include "../ALARMS/alarms.h"
-#include "../TOP_OFF/top_off.h"
-#include "../TEMP/temp.h"
-#include "../TIMERS/timers.h"
-#include "../TIMERS/timersv.h"
-#include "../LOG/log.h"
+#include "commandsDefs.h"
+#include "RTC/rtc.h"
+#include "LCD/hd44780.h"
+#include "EEPROM/eeprom.h"
+#include "outputs.h"
+#include "alarms.h"
+#include "top_off.h"
+#include "temp.h"
+#include "timers.h"
+#include "timersv.h"
+#include "log.h"
 
 
 extern uint8_t minutes;

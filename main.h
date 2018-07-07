@@ -28,7 +28,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 #include <avr/pgmspace.h>
-#include "COMMANDS/commonDefs.h"
+#include "commonDefs.h"
 
 #define STRINGIFY2(x) #x
 #define STRINGIFY(x) STRINGIFY2(x)

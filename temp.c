@@ -18,16 +18,16 @@
 	
 	$Id$
 */
-#include "../main.h"
-#include "../ONEWIRE/one_wire.h"
+#include "main.h"
+#include "ONEWIRE/one_wire.h"
 #include "temp.h"
-#include "../TIMERS/timersv.h"
-#include "../ALARMS/alarms.h"
-#include "../LOG/log.h"
-#include "../STRINGS/strings.h"
-#include "../USART/usart.h"
-#include "../LCD/hd44780.h"
-#include "../OUTPUTS/outputs.h"
+#include "outputs.h"
+#include "timers.h"
+#include "alarms.h"
+#include "log.h"
+#include "strings.h"
+#include "USART/usart.h"
+#include "LCD/hd44780.h"
 
 
 PROGMEM const uint8_t TEMP_CONVERT_DEC_TO_DS[] = {

@@ -25,20 +25,21 @@
 @todo
 - w czasie wyświetlania ustawień wyjścia i zmianie nazwy wyjścia z poziomu GUI zmienia się nazwa wyjścia
 */
-#include "../main.h"
+#include "main.h"
 #include <avr/pgmspace.h>
-#include "../UI/ui.h"
-#include "../LCD/hd44780.h"
-#include "../RTC/rtc.h"
-#include "../TEMP/temp.h"
-#include "../STRINGS/strings.h"
-#include "../ALARMS/alarms.h"
-#include "../TOP_OFF/top_off.h"
-#include "../EEPROM/eeprom.h"
-#include "../MENU/menu.h"
-#include "../OUTPUTS/outputs.h"
-#include "../TIMERS/timers.h"
-#include "../TIMERS/timersv.h"
+#include "ui.h"
+#include "LCD/hd44780.h"
+#include "RTC/rtc.h"
+#include "temp.h"
+#include "outputs.h"
+#include "strings.h"
+#include "alarms.h"
+#include "top_off.h"
+#include "EEPROM/eeprom.h"
+
+#include "menu.h"
+#include "timers.h"
+#include "timersv.h"
 
 extern uint8_t minutes;
 extern uint8_t hours;
