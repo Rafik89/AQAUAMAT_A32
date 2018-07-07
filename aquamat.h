@@ -76,7 +76,7 @@ typedef uint16_t TEMP;
 
 /** sterowanie podswietlaniem LCD */
 #define HD44780_BL_PORT A
-#define HD44780_BL_SWITCH PORT0
+#define HD44780_BL_SWITCH PORT1
 
 //#define HD44780_BL_ON_LOW 0
 
@@ -84,12 +84,13 @@ typedef uint16_t TEMP;
 #define HD44780_DATA_PORT A
 #define HD44780_CONTROL_PORT A
 #define HD44780_RS PORT7
+#define HD44780_RW PORT0
 #define HD44780_E  PORT6
 #define HD44780_D4 PORT5
 #define HD44780_D5 PORT4
 #define HD44780_D6 PORT3
 #define HD44780_D7 PORT2
-#define HD44780_RW PORT1
+
 /** Domyślna pora dnia
 */
 #define DAYTIME_FROM_DEFAULT_HOURS 6
