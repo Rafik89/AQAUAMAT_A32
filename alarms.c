@@ -29,10 +29,10 @@
 #include "alarms.h"
 #include "commonDefs.h"
 #include "temp.h"
-#include "USART/usart.h"
+#include "usart.h"
 #include "strings.h"
 #include "log.h"
-#include "LCD/hd44780.h"
+#include "hd44780.h"
 
 /** @var uint8_t alarms_flags
 	Zmienna przechowująca flagi alarmów.

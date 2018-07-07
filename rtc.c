@@ -24,10 +24,10 @@
 */
 
 #include <util/twi.h>
-#include "../aquamat.h"
-#include "../TWI/twi.h"
-#include "../TWI/twi_addresses.h"
-#include "../RTC/rtc.h"
+#include "aquamat.h"
+#include "twi.h"
+#include "twi_addresses.h"
+#include "rtc.h"
 
 extern uint8_t minutes;
 extern uint8_t hours;

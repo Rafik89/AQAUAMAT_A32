@@ -25,12 +25,12 @@
 
 #include <avr/wdt.h>
 #include "aquamat.h"
-#include "USART/usart.h"
+#include "usart.h"
 #include "comm_gui.h"
 #include "commandsDefs.h"
-#include "RTC/rtc.h"
+#include "rtc.h"
 #include "LCD/hd44780.h"
-#include "EEPROM/eeprom.h"
+#include "eeprom.h"
 #include "outputs.h"
 #include "alarms.h"
 #include "top_off.h"

@@ -21,11 +21,11 @@
 
 #include <avr/wdt.h>
 #include "aquamat.h"
-#include "TWI/twi.h"
-#include "TWI/twi_addresses.h"
+#include "twi.h"
+#include "twi_addresses.h"
 #include "log.h"
 #include "strings.h"
-#include "USART/usart.h"
+#include "usart.h"
 #include "LCD/hd44780.h"
 
 extern uint8_t minutes;
