@@ -28,7 +28,6 @@
 #include <avr/interrupt.h>
 #include <avr/wdt.h>
 #include <stdint.h>
-
 #include "LCD/hd44780.h"
 #include "USART/usart.h"
 #include "COMM_GUI/comm_gui.h"

@@ -24,10 +24,8 @@
 */
 
 #include <util/delay.h>
-
-#include "../main.h"
-
 #include "one_wire.h"
+#include "../main.h"
 
 uint8_t last_discrepency;
 uint8_t last_device_flag;

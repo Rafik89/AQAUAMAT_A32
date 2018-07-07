@@ -25,9 +25,8 @@
 @todo
 - w czasie wyświetlania ustawień wyjścia i zmianie nazwy wyjścia z poziomu GUI zmienia się nazwa wyjścia
 */
-#include <avr/pgmspace.h>
-
 #include "../main.h"
+#include <avr/pgmspace.h>
 #include "../UI/ui.h"
 #include "../LCD/hd44780.h"
 #include "../RTC/rtc.h"

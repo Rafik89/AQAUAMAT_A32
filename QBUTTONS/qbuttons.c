@@ -19,10 +19,10 @@
 	$Id$
 */
 #include "../main.h"
-
+#include "../COMMANDS/commonDefs.h"
 #include "qbuttons.h"
 
-#include "../COMMANDS/commonDefs.h"
+
 #include "../OUTPUTS/outputs.h"
 
 /** @file qbuttons.c
