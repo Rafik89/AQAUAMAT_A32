@@ -24,7 +24,7 @@
 */
 
 #include <avr/pgmspace.h>
-#include "LCD/hd44780.h"
+#include "hd44780.h"
 #include "commonDefs.h"
 #include "aquamat.h"
 #include "menu.h"

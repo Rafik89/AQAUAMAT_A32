@@ -29,7 +29,7 @@
 #include "aquamat.h"
 #include <avr/pgmspace.h>
 #include "ui.h"
-#include "LCD/hd44780.h"
+#include "hd44780.h"
 #include "rtc.h"
 #include "temp.h"
 #include "outputs.h"

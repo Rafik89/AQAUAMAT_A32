@@ -29,7 +29,7 @@
 #include "comm_gui.h"
 #include "commandsDefs.h"
 #include "rtc.h"
-#include "LCD/hd44780.h"
+#include "hd44780.h"
 #include "eeprom.h"
 #include "outputs.h"
 #include "alarms.h"

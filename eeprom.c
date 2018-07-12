@@ -30,7 +30,7 @@
 #include "timers.h"
 #include "timersv.h"
 #include "top_off.h"
-#include "LCD/hd44780.h"
+#include "hd44780.h"
 
 char output_name[EEPROM_OUTS_NAME_LENGTH+1];
 

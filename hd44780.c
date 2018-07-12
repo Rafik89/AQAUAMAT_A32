@@ -30,7 +30,7 @@
 #include <util/delay.h>
 #include <avr/wdt.h>
 
-#include "LCD/hd44780.h"
+#include "hd44780.h"
 #include "strings.h"
 
 /*

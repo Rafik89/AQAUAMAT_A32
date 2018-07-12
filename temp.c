@@ -28,7 +28,7 @@
 #include "log.h"
 #include "strings.h"
 #include "usart.h"
-#include "LCD/hd44780.h"
+#include "hd44780.h"
 
 PROGMEM const uint8_t TEMP_CONVERT_DEC_TO_DS[] = {
 	0,	//0
