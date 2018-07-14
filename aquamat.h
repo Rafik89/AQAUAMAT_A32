@@ -24,7 +24,7 @@
 */
 
 //#define F_CPU 8000000UL
-
+//
 #include <avr/io.h>
 #include <util/delay.h>
 #include <avr/pgmspace.h>
@@ -65,31 +65,30 @@ typedef uint16_t TEMP;
 #define UINT8_T_DISABLED 0xFF
 
 #define PROGRAM_NAME "Aquamat"
-#define PROGRAM_VERSION_MAIN 1
+#define PROGRAM_VERSION_MAIN 2
 #define PROGRAM_VERSION_MAJOR 0
-#define PROGRAM_VERSION_MINOR 12
+#define PROGRAM_VERSION_MINOR 0
 #define PROGRAM_FULL_NAME  "    " PROGRAM_NAME "\n  wersja " STRINGIFY(PROGRAM_VERSION_MAIN) "." STRINGIFY(PROGRAM_VERSION_MAJOR) "." STRINGIFY(PROGRAM_VERSION_MINOR)
 
 /** ustawienia timera */
 #define TAU1 10000
 #define TICKS 50
 
-/** sterowanie podswietlaniem LCD */
-#define HD44780_BL_PORT A
-#define HD44780_BL_SWITCH PORT1
-
-//#define HD44780_BL_ON_LOW 0
+#define HD44780_BL_ON_LOW 0
 
 /** obsluga wyswietlacza LCD */
-#define HD44780_DATA_PORT A
-#define HD44780_CONTROL_PORT A
-#define HD44780_RS PORT7
-#define HD44780_RW PORT0
-#define HD44780_E  PORT6
-#define HD44780_D4 PORT5
-#define HD44780_D5 PORT4
-#define HD44780_D6 PORT3
-#define HD44780_D7 PORT2
+#define HD44780_DATA_PORT 		A
+#define HD44780_CONTROL_PORT 	A
+/** sterowanie podswietlaniem LCD */
+#define HD44780_BL_PORT 		B
+#define HD44780_BL_SWITCH 		PORT0
+#define HD44780_RS 				PORT0
+#define HD44780_RW 				PORT1
+#define HD44780_E  				PORT2
+#define HD44780_D4 				PORT3
+#define HD44780_D5 				PORT4
+#define HD44780_D6 				PORT5
+#define HD44780_D7 				PORT6
 
 /** Domyślna pora dnia
 */
